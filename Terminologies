@@ -1,2 +1,7 @@
-NILM: 
-Smart meters: devices that provide detailed information about the energy consumed by specific electricity supply points, such as homes, offices, and businesses.
+Non-intrusive load monitoring (NILM) (aka load disaggregation): a process for analyzing changes in the voltage and current going into a house and deducing what appliances are used in the house as well as their individual energy consumption. Cheaper alternative to attaching individual monitors on each appliance.
+
+Smart meters: devices that provide detailed information about the energy consumed by specific electricity supply points, such as homes, offices, and businesses. Provides real-time energy usage information.
+
+Load profile: a graph of the variation in the electrical load over time. Helps to plan how much electricity needed to make available at any given time.
+
+Electrical load: any electrical device or component that consumes electrical energy and converts that energy into another form.
