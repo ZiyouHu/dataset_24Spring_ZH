@@ -5,3 +5,5 @@ Smart meters: devices that provide detailed information about the energy consume
 Load profile: a graph of the variation in the electrical load over time. Helps to plan how much electricity needed to make available at any given time.
 
 Electrical load: any electrical device or component that consumes electrical energy and converts that energy into another form.
+
+Advanced Metering Infrastructure (AMI): "a two-way communication system to collect detailed metering information throughout a utility's service industry." Major advantage: real-time.
