@@ -7,3 +7,6 @@ Load profile: a graph of the variation in the electrical load over time. Helps t
 Electrical load: any electrical device or component that consumes electrical energy and converts that energy into another form.
 
 Advanced Metering Infrastructure (AMI): "a two-way communication system to collect detailed metering information throughout a utility's service industry." Major advantage: real-time.
+
+Load forecasting: estimating future load demand based on historical usage patterns and external influential factors.
+
