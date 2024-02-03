@@ -1,0 +1,3 @@
+dataframe.head(#)
+dataframe.tail(#)
+can save the result as a new data frame
