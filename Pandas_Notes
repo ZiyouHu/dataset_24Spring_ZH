@@ -15,7 +15,7 @@ time_series[a list of T/F (those that do or do not satisfy a condition)]
 replace "and" with "&" because "&" is bit operator when typing conditions. Remember to use "()" !!!
 for the same reason, use "/".
 
-dataframe.sort("column_name_to_sort_by")
+dataframe.sort_values("column_name_to_sort_by")
 
 If you are looking at a single timeseries, use timeseries.order().
 
