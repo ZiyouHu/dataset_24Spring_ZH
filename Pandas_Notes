@@ -1,3 +1,23 @@
 dataframe.head(#)
 dataframe.tail(#)
 can save the result as a new data frame
+series: the columns in dataframe
+
+Filtering: reduce a data frame to rows that match a criterion.
+timeseries['column_name']: to just look at one series.
+can do math operations on them
+Can also do comparisons: a bunch of booleans 
+
+
+If the column has a "normal" name, you can just do timeseries.column_name
+time_series[a list of T/F (those that do or do not satisfy a condition)]
+
+replace "and" with "&" because "&" is bit operator when typing conditions. Remember to use "()" !!!
+for the same reason, use "/".
+
+dataframe.sort("column_name_to_sort_by")
+
+If you are looking at a single timeseries, use timeseries.order().
+
+not_null_df = df[df.timeseries.notnull()]
+null_df = df[df.timeseries.isnull()]
