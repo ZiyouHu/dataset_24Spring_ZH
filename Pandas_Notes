@@ -21,3 +21,20 @@ If you are looking at a single timeseries, use timeseries.order().
 
 not_null_df = df[df.timeseries.notnull()]
 null_df = df[df.timeseries.isnull()]
+
+filtering that has to do with strings:
+df.series_name.str.startswith("blah")
+
+how many times each value appears: series.value_counts()
+
+For index with values, can ask panda to plot: .plot()
+
+
+
+How to sort by df's index?
+
+.sort_index()
+
+df.plot(x = time_series, y = time_series, kind="scatter")
+
+df[[series_name, series_name, ...]]  : will only display these columns
