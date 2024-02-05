@@ -11,3 +11,5 @@ Advanced Metering Infrastructure (AMI): "a two-way communication system to colle
 Load forecasting: estimating future load demand based on historical usage patterns and external influential factors.
 
 NILMTK: enbale the comparison of energy disaggregation algorithms in a reproducible manner. Caompare multiple disaggregation approaches across multiple publicly available data sets.
+
+Electrical Submetering measures consumption data beyond the master meter.
