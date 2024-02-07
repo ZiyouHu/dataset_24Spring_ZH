@@ -10,9 +10,41 @@ Contributions:
 Q: How about datasets that don't belong to those formats?
 
 3. Statistical and diagonistic functions which provide a detailed understanding of each data set.
+- Detect gaps
+- Dropout rate
+- Dropout rate (ignoring gaps)
+- Up-time
+- Diagnose: checks all of the issues
 
 4. Processing functions for mitigating common challenges with NILM data sets,
 
+Preprocessing of datasets:
+a) Downsample: to a specified frequency using aggregation functions
+
+b) Voltage normalization
+
+c) Identify the top-k energy consuming appliances
+
+d) Interpolating small periods of missing data when appliance sensors did not report readings
+
+e) Filtering out implausible values
+
+f) Filtering out appliance data when mains data is missing
+
 5. Implementations of 2 benchmark disaggregation algorithms
 - CO (combinatorial optimisation)
-- HMM (hidden Markov model)
+	- Finds the optimal combination of appliance states, which minimizes the differences between the sum of the predicted appliance power and the observed aggregate power, subject to a set 	of appliance models.
+
+- FHMM (Factorialn Hidden Markov Model)
+
+6. Present a suite of accuracy metrics
+- Error in total energy assigned
+- Fraction of total energy assigned correctly
+- Normalized error in assigned power
+- RMS error in assigned error
+- Confusion matrix
+- True positives, False positives, False negatives, True negatives
+- True/False positive rate
+- Precision, Recall
+- F-score
+- Hamming loss
