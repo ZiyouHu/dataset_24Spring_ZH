@@ -6,7 +6,7 @@ Contributions:
 
 1. NILMTK-DF (data format): the standard enegry disaggregation data structure use by the toolkit.
 
-2. Parsers from 6 existing datasets into NILMTK-DF format.
+2. Parsers from 6 existing datasets into NILMTK-DF format. REDD, SMART*, AMPds, UK-DALE, iAWE, PecanStreet
 Q: How about datasets that don't belong to those formats?
 
 3. Statistical and diagonistic functions which provide a detailed understanding of each data set.
@@ -31,9 +31,9 @@ e) Filtering out implausible values
 
 f) Filtering out appliance data when mains data is missing
 
-5. Implementations of 2 benchmark disaggregation algorithms
+5. Implementations of 2 benchmark disaggregation algorithms. 2019: 3 benchmark algorithms
 - CO (combinatorial optimisation)
-	- Finds the optimal combination of appliance states, which minimizes the differences between the sum of the predicted appliance power and the observed aggregate power, subject to a set 	of appliance models.
+	- Finds the optimal combination of appliance states, which minimizes the differences between the sum of the predicted appliance power and the observed aggregate power, subject to a 	set of appliance models.
 
 - FHMM (Factorialn Hidden Markov Model)
 
@@ -48,3 +48,8 @@ f) Filtering out appliance data when mains data is missing
 - Precision, Recall
 - F-score
 - Hamming loss
+
+
+
+
+Data converters: 
