@@ -53,3 +53,11 @@ f) Filtering out appliance data when mains data is missing
 
 
 Data converters: 
+All data sets are first converted into a consistent HDF5 file format.
+
+Converted for DRED and Smart*.
+
+Now, can support 12 different data sets?
+
+
+Does it mean that NILMTK can only work 12 specific data sets?
