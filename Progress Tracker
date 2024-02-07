@@ -26,3 +26,7 @@ The installation of smart meters have become more common around the 2020. This m
 02/05/2024
 
 Does normalization make a difference? If so, what consequences are created? Are they resolved?
+
+02/07/2024
+Is NILMTK only capable of working with 12 data sets?
+Are we only exploiting the data converter functionalities of NILMTK toolkit? (I assume we are not using the algorithm comparison feature of the toolkit)
