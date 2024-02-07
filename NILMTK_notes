@@ -1,0 +1,18 @@
+NILM: break down a household's aggregate electricity consumption into individual applieances.
+
+NILMTK: open source toolkit designed specifically to enable easy access to and comparative analysis of energy disaggregation algorithms across diverse data sets.
+
+Contributions:
+
+1. NILMTK-DF (data format): the standard enegry disaggregation data structure use by the toolkit.
+
+2. Parsers from 6 existing datasets into NILMTK-DF format.
+Q: How about datasets that don't belong to those formats?
+
+3. Statistical and diagonistic functions which provide a detailed understanding of each data set.
+
+4. Processing functions for mitigating common challenges with NILM data sets,
+
+5. Implementations of 2 benchmark disaggregation algorithms
+- CO (combinatorial optimisation)
+- HMM (hidden Markov model)
