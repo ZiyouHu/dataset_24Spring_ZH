@@ -38,3 +38,14 @@ How to sort by df's index?
 df.plot(x = time_series, y = time_series, kind="scatter")
 
 df[[series_name, series_name, ...]]  : will only display these columns
+
+
+%%time: runs the noraml operation and reports how long the operation takes.
+
+df.set_index(['series_name', 'series_name']): replace the line number of the file with the column. We can do .sort_index()
+
+After indexing, df.loc[key]: basically a python dictionary
+
+We can pass df.loc[key1, key2]
+
+Toss it back: .reset_index([key1, key2])
