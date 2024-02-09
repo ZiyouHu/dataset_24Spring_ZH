@@ -49,3 +49,16 @@ After indexing, df.loc[key]: basically a python dictionary
 We can pass df.loc[key1, key2]
 
 Toss it back: .reset_index([key1, key2])
+
+df.groupby(['series_name', 'series_name', 'series_name'])
+
+
+df.plot(ylim=0)
+
+.size()
+.min()
+.max()
+.mean()
+
+
+We can even create a series,
