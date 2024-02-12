@@ -8,3 +8,19 @@ For each house:
 3) <= 20 plug-level monitors in the home at 1 Hz -- focus on logging electronic devices where multiple devices are grouped to a single circuit.
 
 
+Data colletion:
+
+1) High frequency can be translated to lower frequency -> bulkier to store  (I should take a look at the units)
+
+2) Real/Reactive power: what are they?
+
+3) Use of external features?
+
+4) Supervised / Unsupervised training
+
+5) Training and testing generalization
+
+6) Accomodatition for various evaluation metrics
+
+
+A lot of disaggregation work has been focusing on detecting on/off??
