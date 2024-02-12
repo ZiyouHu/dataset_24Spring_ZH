@@ -30,3 +30,9 @@ Does normalization make a difference? If so, what consequences are created? Are 
 02/07/2024
 Is NILMTK only capable of working with 12 data sets?
 Are we only exploiting the data converter functionalities of NILMTK toolkit? (I assume we are not using the algorithm comparison feature of the toolkit)
+
+resolved
+
+02/12/2024
+Looked at REDD
+Looked at NILMTK
