@@ -62,3 +62,18 @@ df.plot(ylim=0)
 
 
 We can even create a series,
+
+
+
+df.unstack(): column to row
+
+df.stack(): does the reverse
+
+df.fillna()
+
+df has 2 indices; the 2 dimensions should be maintained.
+
+merge()
+
+pivot()
+dt: date and time
