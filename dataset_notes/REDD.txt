@@ -24,3 +24,6 @@ Data colletion:
 
 
 A lot of disaggregation work has been focusing on detecting on/off??
+
+
+each channel is an appliance
