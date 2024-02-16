@@ -77,3 +77,13 @@ merge()
 
 pivot()
 dt: date and time
+
+
+DataFrame: a data structure that organizes data into a 2-dimensional table of rows and columns, much like a spreadsheet. 2D array
+
+series: 1D array
+
+merge(): Combine two Series or DataFrame objects with SQL-style joining
+- one-to-one: joining 2 df objects on their indexes which must contain unique values
+- many-to-one: joining a unique index to one or more columns in a different df
+- many-to-many: joining columns on columns
