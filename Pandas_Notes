@@ -87,3 +87,7 @@ merge(): Combine two Series or DataFrame objects with SQL-style joining
 - one-to-one: joining 2 df objects on their indexes which must contain unique values
 - many-to-one: joining a unique index to one or more columns in a different df
 - many-to-many: joining columns on columns
+
+
+
+pandas.pivot(index, columns, values) function produces a pivot table based on 3 columns of the DataFrame. Uses unique values from the index/columns and fills them with values.
